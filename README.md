@@ -8,7 +8,7 @@ For neutral molecules in a singlet state, otherwise, change input generation sec
 
 **files needed:** compound.xyz
 
-**packages needed:** Gaussian; marathon (https://github.com/dudektria/marathon) - for using Gaussian (or change the line where marathon is called, for the method you submit jobs in Gaussian)
+**packages needed:** Gaussian; marathon (https://github.com/schneiderfelipe/marathon) - for using Gaussian (or change the line where marathon is called, for the method you submit jobs in Gaussian)
 
 **usage:** `./make_esp.sh` `xyz(without .xyz)` `opt_level(scape special characters, for gaussian input)` `nprocs-opt` `nprocs-esp`
 
